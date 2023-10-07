@@ -14,7 +14,7 @@ const button = [
 
 const Hero = () => {
 	return (
-		<section className="hero min-h-screen flex flex-col justify-center items-center">
+		<section className="hero min-h-[90vh] flex flex-col justify-center items-center bg-gray-600">
 			<div className="flex justify-center items-start w-[90%]">
 				<span className="font-medium text-3xl font-mono uppercase tracking-[1.4px] my-auto">
 					So, You want to travel to&nbsp;

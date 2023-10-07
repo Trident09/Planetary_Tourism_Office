@@ -17,4 +17,10 @@
 		background-color: black;
 		color: white;
 	}
+	section.hero {
+		background: url("https://i.pinimg.com/originals/9b/93/5c/9b935c20ab852fa3a35c298760cedcb9.png");
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
 }
