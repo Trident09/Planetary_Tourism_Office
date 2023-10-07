@@ -10,7 +10,7 @@ const Layout = () => {
 		const delay = () => {
 			setTimeout(() => {
 				setIsLoading(false);
-			}, 2500);
+			}, 10);
 		};
 		delay();
 	}, []);
@@ -19,7 +19,7 @@ const Layout = () => {
 	) : (
 		<div>
 			<NavBar />
-			<main>
+			<main className="mt-[80px]">
 				<Outlet />
 			</main>
 			<Footer />

@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		scroll-behavior: smooth;
+		padding: 0;
+		min-width: 290px;
+		margin: 0;
+		font-family: "Bellefair", serif;
+		background-color: black;
+		color: white;
+	}
+}

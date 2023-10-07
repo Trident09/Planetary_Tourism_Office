@@ -7,13 +7,13 @@ const NavBar = () => {
 	return (
 		<div className="z-40 shadow-md w-full fixed top-0 left-0">
 			<div className="md:flex items-center justify-between bg-black py-4 md:px-10 px-7">
-				<div className="font-normal text-2xl flex items-center font-[Anton] text-white">
+				<div className="font-normal text-2xl flex items-center text-white">
 					<span className="text-3xl text-white mr-1 pt-2">
 						<ion-icon name="planet"></ion-icon>
 					</span>
 					<a href="/">
 						<span className="flex flex-row gap-1 hover:text-cyan-300 cursor-pointer ">
-							Planetary <b className="text-cyan-300">office</b>
+							Planetary <b className="text-cyan-300 font-light">office</b>
 						</span>
 					</a>
 				</div>
