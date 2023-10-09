@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="./style.css">
+<script src="https://cdn.tailwindcss.com"></script>
+    <title>Solar System</title>
+    <style>
+        body {
+            margin: 0
+        }
+    </style>
+</head>
+<body>
+    <!-- You can open the modal using ID.showModal() method -->
+    <div id="overlay-text">
+
+      <p class="text">
+ 
+        <span>
+          Explore Planets
+        </span>
+      </p>
+      
+    </div>
+<dialog id="mercury" class="modal">
+  
+    <form method="dialog">
+      <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+    </form>
+    <div class="parent">
+      <div class="card">
+        
+          <div class="content-box">
+          
+          
+            
+              <span class="card-title" style="font-size: xx-large">About Mercury</span>
+
+              <p class="card-content" style="font-size: x-large">
+              
+              <li>Mercury is the smallest planet in our solar system with a diameter of 3,031 miles.</li>
+              
+              <li>It is the closest planet to the Sun at about 36 million miles away.</li>  
+              
+              <li>Mercury has a very thin atmosphere made up of atoms blasted off its surface.</li>
+              
+              <li>The surface is heavily cratered, similar to the moon.</li>
+              
+              <li>Craters on Mercury are named after famous artists, musicians and authors.</li>
+              
+              <li>Mercury has no moons or rings.</li>
+              
+              <li>Mariner 10 was the first spacecraft to visit Mercury in 1974-75.</li>
+              
+              <li>NASA's MESSENGER probe mapped 100% of Mercury's surface from 2004-2015.</li>
+              
+              <li>Temperatures range from -290°F to 800°F due to varying distances from the Sun.</li>
+              
+              <li>Mercury has cliff-like features called Scarps likely caused by the planet shrinking.</li>
+              
+              </p>
+            
+            </p>
+              <span class="see-more"><a href="https://planet-murex.vercel.app/mercury">See More</a></span>
+          </div>
+          <div class="date-box">
+            <span class="month" style="font-size: large">Distance</span>
+
+              <span class="date">36 million miles</span>
+          </div>
+        </div>
+  </div>
+</dialog>
+
+
+<dialog id="venus" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+        
+          
+            <span class="card-title" style="font-size: xx-large">About Venus</span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Venus is the 2nd planet from the Sun and Earth's closest neighbor at 25 million miles away.</li> <li>Venus is around the same size as Earth with a diameter of 7,520 miles.</li> <li>The surface temperature on Venus reaches 880°F, making it the hottest planet.</li> <li>Thick clouds of sulfuric acid trap heat and create a strong greenhouse effect.</li> <li>Venus has continent-like highlands and plains covered in craters and volcanoes.</li> <li>Venus rotates backwards compared to most planets, called retrograde rotation.</li> <li>Venus is named after the Roman goddess of love and beauty.</li> <li>Venus has no natural moons or rings.</li> <li>The Soviet Venera probes first landed on Venus in the 1970s.</li> <li>NASA's Magellan probe mapped 98% of Venus' surface with radar in the 1990s.</li>
+            </p>
+          
+          </p>
+            <span class="see-more"><a href="https://planet-murex.vercel.app/venus">See More</a></span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">67 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+<dialog id="earth" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+        
+          
+            <span class="card-title" style="font-size: xx-large"><a href="https://planet-murex.vercel.app/earth">See More</a></span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Earth is the third planet from the Sun and the only known planet to harbor life.</li> <li>The diameter of Earth is approximately 7,917 miles (12,742 km).</li> <li>Earth's surface is divided into several rigid tectonic plates that migrate across the surface over many millions of years.</li> <li>Earth has one natural satellite, the Moon, which orbits around it.</li> <li>Earth has a strong magnetic field created by the rotation of its liquid iron core.</li> <li>Earth's atmosphere consists mostly of nitrogen and oxygen which allow life to thrive.</li> <li>Earth is the only planet in our solar system not named after a Greek or Roman deity.</li> <li>The highest point on Earth is Mount Everest at 29,031 feet (8,848 meters).</li> </p>
+          
+          </p>
+            <span class="see-more">See More</span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">93 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+<dialog id="mars" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+        
+          
+            <span class="card-title" style="font-size: xx-large">About Mars</span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Mars is the fourth planet from the Sun and the second smallest planet in our solar system.</li> <li>The diameter of Mars is approximately 4,220 miles (6,790 km).</li> <li>Mars is known as the "Red Planet" due to the iron oxide that gives its surface a reddish appearance.</li> <li>Mars has two small irregularly shaped moons called Phobos and Deimos.</li> <li>Some key surface features on Mars are Olympus Mons, the largest volcano, and Valles Marineris, the largest canyon.</li> <li>Mars has an extremely thin atmosphere made up mostly of carbon dioxide, nitrogen and argon.</li> <li>Mars has polar ice caps that expand and contract with the seasons.</li>  <li>Evidence of ancient rivers and oceans suggests Mars may have once supported life.</li> 
+            </p>
+          
+          </p>
+            <span class="see-more"><a href="https://planet-murex.vercel.app/mars">See More</a></span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">142 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+
+
+<dialog id="jupiter" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+        
+          
+            <span class="card-title" style="font-size: xx-large">About Jupiter</span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Jupiter is the fifth planet from the Sun and the largest planet in our solar system.</li> <li>The diameter of Jupiter is about 88,846 miles (142,984 km), over 11 times larger than Earth.</li>  <li>Jupiter has at least 79 confirmed moons, including the four large Galilean moons: Io, Europa, Ganymede and Callisto.</li> <li>Jupiter has three faint rings composed of small dust grains from space debris and asteroids.</li> <li>The Great Red Spot is a huge, long-lasting storm on Jupiter about 1.3 times as wide as Earth.</li> <li>Jupiter rotates very rapidly, completing one rotation in just under 10 hours.</li> <li>Jupiter emits more energy than it receives from the Sun through a process called radioactive self-heating.</li> <li>NASA space probes like Pioneer 10, Voyager, Galileo, Cassini and Juno have done flybys or orbited Jupiter.</li> 
+            </p>
+          
+          </p>
+            <span class="see-more"><a href="https://planet-murex.vercel.app/jupiter">See More</a></span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">484 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+
+<dialog id="saturn" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+        
+          
+            <span class="card-title" style="font-size: xx-large">About Saturn</span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Saturn is the sixth planet from the Sun and the second largest planet after Jupiter.</li> <li>Saturn has a diameter of about 72,367 miles (116,464 km), over 9 times larger than Earth.</li> <li>Saturn is a gas giant made up mostly of hydrogen and helium.</li> <li>Saturn has the most extensive and complex ring system of any planet in our solar system.</li> <li>Saturn has 82 confirmed moons, the largest being Titan and Rhea.</li> <li>Saturn is the flattest planet, its polar diameter being 90% of its equatorial diameter due to its low density.</li> <li>Saturn has the fastest winds in the solar system, reaching speeds of over 1,100 mph (1,800 km/h).</li> <li>Saturn orbits the Sun once every 29.4 years and completes one rotation roughly every 10.5 hours.</li> </p>
+          
+          </p>
+            <span class="see-more">See More <a href="https://planet-murex.vercel.app/saturn">See More</a></span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">886 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+<dialog id="uranus" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+
+          
+            <span class="card-title" style="font-size: xx-large">About Uranus</span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Uranus is the seventh planet from the Sun and the third largest planet in our solar system.</li> <li>Uranus has a diameter of about 31,518 miles (50,724 km), four times larger than Earth.</li> <li>Unlike other planets, Uranus rotates nearly on its side in relation to its orbit around the Sun.</li> <li>Uranus is an ice giant composed mainly of water, ammonia and methane surrounding a rocky core.</li> <li>Uranus has 27 known moons, including Titania and Oberon, and a complex ring system.</li> <li>Uranus takes about 84 years to orbit the Sun and takes about 17 hours to rotate once on its axis.</li> <li>The atmosphere of Uranus contains hydrogen, helium and methane which gives it a blue-green tint.</li> 
+          
+          </p>
+            <span class="see-more"><a href="https://planet-murex.vercel.app/uranus">See More</a></span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">1784 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+<dialog id="neptune" class="modal">
+  
+  <form method="dialog">
+    <button class="btn btn-lg btn-circle btn-ghost  left"><b>✕</b></button>
+
+  </form>
+  <div class="parent">
+    <div class="card">
+      
+        <div class="content-box">
+        
+
+          
+            <span class="card-title" style="font-size: xx-large"><a href="https://planet-murex.vercel.app/neptune">See More</a></span>
+
+            <p class="card-content" style="font-size: x-large">
+            
+              <li>Neptune is the eighth and farthest known planet from the Sun in our solar system.</li> <li>Neptune has a diameter of about 30,599 miles (49,244 km), making it the smallest of the gas giants.</li> <li>Neptune orbits the Sun once every 164.8 years and has a rotation period of 19 hours.</li> <li>Neptune has a thick atmosphere made up predominantly of hydrogen and helium.</li> <li>Neptune has 14 confirmed moons, the largest being Triton.</li> <li>Neptune has a very active climate with supersonic winds and massive storms like the Great Dark Spot.</li> <li>Neptune has a ring system composed of five main rings rich in ice particles and dust.</li> <li>Neptune's blue color comes from small amounts of methane gas in its atmosphere.</li>              </p>
+          
+          </p>
+            <span class="see-more">See More</span>
+        </div>
+        <div class="date-box">
+          <span class="month" style="font-size: large">Distance</span>
+
+            <span class="date">2795 million miles</span>
+        </div>
+      </div>
+</div>
+</dialog>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/scripts.js" type="module"></script>
+</body>
+</html>

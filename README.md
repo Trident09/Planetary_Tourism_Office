@@ -1,21 +1,82 @@
 # Planetary Tourism Office
+## Team
 
-![Planetary Tourism Office Logo](https://agor1.ru/assets/images/Space-Vintage-Poster-gallery/ufo20-8.jpg)
+- Team Name: Softonauts
+- Team Leader Namer: Aviral Kaintura
+- Email Id: provantablack@gmail.com
 
-Welcome to the Planetary Tourism Office GitHub repository! This project is part of the NASA Space App Challenge, where we aim to create an exciting and immersive experience for planetary tourists.
 
-## Tech Stacks
+## Check out Website!:
+ https://softonauts.netlify.app
+ 
+## Description
 
-We are using the following technologies and frameworks for this project:
+The Planetary Tourism Office project is a website that allows users to explore planets and gain knowledge about space travel from the comfort of their homes. It provides an interactive platform for users to check itineraries and learn about the planets in our solar system.
 
-- **Firebase**: Firebase provides us with a robust backend infrastructure, authentication, and real-time database capabilities, ensuring a secure and reliable foundation for our application.
+Using React, Vite, and Tailwind CSS, the project offers a user-friendly interface with responsive design. Users can navigate through the website to access information about different planets, view interactive 3D models, and plan their own virtual space travel itineraries.
 
-- **Vue 3.js**: Vue 3.js is a progressive JavaScript framework that enables us to build dynamic and interactive user interfaces. It's perfect for creating a seamless and engaging user experience for our planetary tourists.
+The project integrates with the NASA API to provide real-time data about the planets, ensuring that users have access to the latest information. Additionally, custom AI algorithms are implemented to offer personalized recommendations based on user preferences and behavior.
 
-- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that streamlines the design and styling process. It allows us to create visually stunning and responsive user interfaces while maintaining code maintainability.
+With the inclusion of 3D models, CSS, HTML, and generative AI techniques, the website creates an immersive experience that sparks curiosity and allows users to gain knowledge about space exploration.
+## ScreenShots
+![Alt text](images/1.png)
+![Alt text](images/2.png)
+![Alt text](images/3.png)
+![Alt text](images/4.png)
+![Alt text](images/5.png)
+![Alt text](images/6.png)
 
-## About the Project
+## Technologies Used
 
-The Planetary Tourism Office project aims to revolutionize space exploration and tourism. With our cutting-edge technology stack, we're developing an application that will allow users to explore and plan their journeys to various celestial bodies, including planets, moons, and asteroids. Whether you're a space enthusiast or a future space traveler, our application will provide you with the information and tools you need to plan your dream space adventure.
+- React
+- Vite
+- Tailwind CSS
+- Three.js
+- Flask
+- Custom AI
+- NASA API
+- CSS
+- HTML
+- 3D Models
+- Generative AI
 
-Stay tuned for updates and exciting features as we work on this project during the NASA Space App Challenge.
+## Features
+
+- Interactive 3D models of planets
+- Itinerary planning for space travel
+- Access to NASA API for real-time data
+- Custom AI for personalized recommendations
+- User-friendly interface with responsive design
+
+## Installation
+
+1. Clone the repository: git clone <repository-url>
+2. Install dependencies: npm install
+3. Start the development server: npm run dev
+
+## Usage
+
+1. Open the project in your preferred code editor.
+2. Configure the necessary API keys and settings.
+3. Run the development server.
+4. Access the website in your browser.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
+## Acknowledgements
+
+- [NASA API](https://api.nasa.gov/) for providing space-related data.
+- [Tailwind CSS](https://tailwindcss.com/) for the responsive design.
+- [Three.js](https://threejs.org/) for the interactive 3D models.
+
+## Contact
+
+For any questions or inquiries, please contact [provantablack@gmail.com](mailto:provantablack@gmail.com).
