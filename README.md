@@ -1,7 +1,8 @@
 # Planetary Tourism Office
-## Team
 
 ## [Blog Post](https://rupam.vercel.app/articles/h2s_space_apps_challenge/)
+
+## Team
 
 - Team Name: Softonauts
 - Team Leader Namer: Aviral Kaintura
