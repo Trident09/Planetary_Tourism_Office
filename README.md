@@ -1,6 +1,8 @@
 # Planetary Tourism Office
 ## Team
 
+## [Blog Post](https://rupam.vercel.app/articles/h2s_space_apps_challenge/)
+
 - Team Name: Softonauts
 - Team Leader Namer: Aviral Kaintura
 - Email Id: provantablack@gmail.com
@@ -79,4 +81,4 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 
 ## Contact
 
-For any questions or inquiries, please contact [provantablack@gmail.com](mailto:provantablack@gmail.com).
+For any questions or inquiries, please contact [rupambarui.17@gmail.com](mailto:rupambarui.17@gmail.com).
